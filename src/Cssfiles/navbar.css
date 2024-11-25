@@ -1,0 +1,28 @@
+.navbarbox{
+    display: flex;
+    background-color: blue;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    height: 7vh;
+    align-items: center;
+}
+.lists{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.list{
+    display: flex;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+.links{
+    color: white;
+    text-decoration-line: none;
+}

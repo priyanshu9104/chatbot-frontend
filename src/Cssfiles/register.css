@@ -1,0 +1,86 @@
+.registercontainerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f5f5f5;
+}
+.registerbox{
+    background-color: #b8b7b7;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 70vh;
+    /* padding: 20px; */
+}
+.firstbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-right:  1px solid black;
+    padding: 20px;
+}
+.ricon{
+    font-size: 20px;
+}
+.secondbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+}
+.formsection{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.labelbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+label{
+    display: flex;
+    align-items: start;
+    width: 40%;
+}
+.username{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.email{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.password{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+/* .submit{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+} */
+.registerbutton{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+}
