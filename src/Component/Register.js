@@ -16,7 +16,7 @@ const Register = () => {
         setLoading(true);
         // console.log(phone, email, password);
         try {
-            const res = await axios.post('http://localhost:5000/api/auth/register', { 
+            const res = await axios.post('https://backend-chatbot-six.vercel.app/api/auth/register', { 
                     email: email,
                     phone: phone,
                     password: password
