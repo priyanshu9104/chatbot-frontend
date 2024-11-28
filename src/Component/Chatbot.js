@@ -95,21 +95,74 @@ import { MdOutlineCancel } from "react-icons/md";
 
 const tweetsData = {
 
-
+How are you: [
+    "Hi I am fine.",
+    "And how are you?"
+  ],
+  How are you : [
+    "Hi I am fine.",
+    "And how are you?"
+  ],
+  What are you doing: [
+    "I am helping you and give the your answer>"
+  ],
+  Hi: [
+    "Hi how are you ?"
+  ],
+  hi: [
+    "Hi how are you ?"
+  ],
+  hello:[
+  "hi this is chatbot"
+  ],
+  hello :[
+  "hi this is chatbot"
+  ]
   cricket: [
-    "Virat Kohli's century seals the win!",
-    "Breaking: India wins the ICC tournament!",
-    "MS Dhoni: The finisher strikes again.",
+    "Virat Kohli's century seals the win! Breaking: India wins the ICC tournament! MS Dhoni: The finisher strikes again.",
   ],
+   cricket : [
+    "Virat Kohli's century seals the win! Breaking: India wins the ICC tournament! MS Dhoni: The finisher strikes again.",
+  ],
+  Cricket : [
+    "Virat Kohli's century seals the win! Breaking: India wins the ICC tournament! MS Dhoni: The finisher strikes again.",
+  ],
+  cricket : [
+    "Virat Kohli's century seals the win! Breaking: India wins the ICC tournament! MS Dhoni: The finisher strikes again.",
+  ],
+  WorldCup:[
+  "Rachin Ravindra from New Zealand scored the most runs in the 2023 World Cup."
+  ],
+  World Cup:[
+  "Rachin Ravindra from New Zealand scored the most runs in the 2023 World Cup."
+  ],
+  world cup:[
+  "Rachin Ravindra from New Zealand scored the most runs in the 2023 World Cup."
+  ],
+  
   football: [
-    "Lionel Messi wins Ballon d'Or!",
-    "Manchester United secures last-minute victory.",
-    "Cristiano Ronaldo scores a stunning hat-trick.",
+    "Lionel Messi wins Ballon d'Or! Manchester United secures last-minute victory. Cristiano Ronaldo scores a stunning hat-trick.",
   ],
-  technology: [
-    "ChatGPT is redefining AI technology.",
-    "Elon Musk unveils Tesla's latest innovations.",
-    "Apple announces the launch of the new iPhone 16.",
+  Football: [
+    "Lionel Messi wins Ballon d'Or! Manchester United secures last-minute victory. Cristiano Ronaldo scores a stunning hat-trick.",
+  ],
+  Football : [
+    "Lionel Messi wins Ballon d'Or! Manchester United secures last-minute victory. Cristiano Ronaldo scores a stunning hat-trick.",
+  ],
+  FootBall: [
+    "Lionel Messi wins Ballon d'Or! Manchester United secures last-minute victory. Cristiano Ronaldo scores a stunning hat-trick.",
+  ],
+  Technology: [
+    "ChatGPT is redefining AI technology. Elon Musk unveils Tesla's latest innovations. Apple announces the launch of the new iPhone 16.",
+  ],
+   Technology : [
+    "ChatGPT is redefining AI technology. Elon Musk unveils Tesla's latest innovations. Apple announces the launch of the new iPhone 16.",
+  ],
+   technology: [
+    "ChatGPT is redefining AI technology. Elon Musk unveils Tesla's latest innovations. Apple announces the launch of the new iPhone 16.",
+  ],
+   technology : [
+    "ChatGPT is redefining AI technology. Elon Musk unveils Tesla's latest innovations. Apple announces the launch of the new iPhone 16.",
   ],
 };
 
