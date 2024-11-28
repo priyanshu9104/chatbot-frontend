@@ -13,7 +13,7 @@ const Login = () => {
         // console.log(email,password);
         setLoading(true);
         try {
-            const data = await axios.post("http://localhost:5000/api/auth/login",{
+            const data = await axios.post("https://backend-chatbot-six.vercel.app/api/auth/login",{
                 email: email,
                 password: password
               }
