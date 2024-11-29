@@ -14,7 +14,7 @@ const ForgotPassword = () => {
 
   const handleForgotPassword = async() => {
     setLoading(true);
-    const res = await axios.post('http://localhost:5000/api/auth/forgot-password', {emailOrPhone: emailOrPhone});
+    const res = await axios.post('https://backend-chatbot-six.vercel.app/api/auth/forgot-password', {emailOrPhone: emailOrPhone});
     // console.log(res);
     // setIsRequestAllowed(true)
     if (res.data.error) {
